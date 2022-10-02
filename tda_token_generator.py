@@ -18,13 +18,13 @@ api_key = consumer_key + '@AMER.OAUTHAP'
 
 # Validating existing token file or generate a new token file
 try:
-    print ("Validating current token file")
+    print("Validating current token file")
     td_session = auth.client_from_token_file(
         token_path,
         api_key
     )
-    print ("Token file is still valid")
-    print ("Exiting program")
+    print("Token file is still valid")
+    print("Exiting program")
 
 except:
     td_session = auth.client_from_manual_flow(
