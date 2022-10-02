@@ -21,7 +21,9 @@
 
 #. Need to install tda-api
 
-#. Run tda_token_generator.py and follow the instructions.
+#. Run tda_token_generator.py and follow the instructions
 
 #. The generated TDA_Auth_Token.json file is valid for 85 days. If the token file is not valid anymore
-   delete the TDA_Auth_Token.json file and run tda_token_generator.py again.
+   delete the TDA_Auth_Token.json file and run tda_token_generator.py again
+
+#. Note: Nuitka is only used for compilation to a binary (if needed for distribution).
