@@ -1,4 +1,4 @@
-#. TDA_token_generator for TD Ameritrade (TOS)
+#. TDA_token_generator is a token generator for TD Ameritrade (TOS)
 
 #. Need a TD Ameritrade Account
 
